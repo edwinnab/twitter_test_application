@@ -1,9 +1,9 @@
 import tweepy
 #assign variables to the key,secret and token
-consumer_key = "dyrc7limtw0FCZoopEvorU5tC"
-consumer_secret = "1HG5gKbSCapWguP2XTXfgYbNEfAvU4WipMUKuGRslTwY73RkXI"
-access_token = "1245685147946700801-xaHmExMgRGrwraIRVgLoLGbt96NAMF"
-access_token_secret = "Z0zrGILGQFhClma6bnFe6OMNubtALLfBKB7ulhm1eM7TB"
+consumer_key = "your consumer key"
+consumer_secret = "consumer secret"
+access_token = "access token"
+access_token_secret = "access secret"
 #use OAuthHandler to pass the consumer key and secret
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 #set access token and secret
